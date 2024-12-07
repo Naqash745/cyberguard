@@ -99,9 +99,9 @@ if selection=="Dashboard":
     sheet_id = '1QE9qW7DxaYp44RvTM0YUtpRFoe4GPt9i0WX-_OruXHM' # replace with your sheet's ID
     
     url=f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv"
-    df=pd.read_csv(url)
+    df=pd.read_csv(url,names=["A","b","C"])
     # df.values
-    st.write(df.values[:-2])
+    st.write(df)
     st.write("Latest Updates")
     col1,col2,col3=st.columns(3)
     with col1:
