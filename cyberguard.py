@@ -132,6 +132,7 @@ if selection=="Education Portal":
         </a>''',
         unsafe_allow_html=True
         )
+        st.caption("Starbucks, Grocery Stores Hit by Blue Yonder Ransomware Attack")
     with col2:
         st.markdown('''
         <a href="https://www.securityweek.com/hackers-stole-1-49-billion-in-cryptocurrency-to-date-in-2024/">
@@ -139,6 +140,7 @@ if selection=="Education Portal":
         </a>''',
         unsafe_allow_html=True
         )
+        st.caption("Hackers Stole $1.49 Billion in Cryptocurrency to Date in 2024")
     with col3:
         st.markdown('''
         <a href="https://www.securityweek.com/new-google-project-aims-to-become-global-clearinghouse-for-scam-fraud-data/">
