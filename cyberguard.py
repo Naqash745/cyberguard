@@ -114,7 +114,7 @@ if selection=="Dashboard":
     # wrong=[]
     for i,j in zip(responses,["A", "A"]):
         if i==j:
-            corrent.append(1)
+            correct.append(1)
         else:
             correct.append(0)
     
