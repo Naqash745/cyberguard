@@ -129,7 +129,7 @@ if selection=="Dashboard":
         # sns.barplot(correct,ax=ax)
         ax.pie(correct, labels=["Correct","Wrong"], autopct="%1.1f%%", startangle=90)
         # ax.axis("equal")  # Equal aspect ratio ensures the pie is drawn as a circle.
-        st.write("### Cyber Awareness Score")
+        st.write("Cyber Awareness Score")
         st.pyplot(fig)
 
 
