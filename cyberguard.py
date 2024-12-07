@@ -124,7 +124,7 @@ if selection=="Cyber Awareness Chatbot":
 if selection=="Education Portal":
     st.subheader("Welcome to Education Portal")
     st.write("Latest Updates")
-    col1,col2,col3,col4=st.columns(4)
+    col1,col2,col3=st.columns(3)
     with col1:
         st.markdown('''
         <a href="https://www.securityweek.com/starbucks-grocery-stores-hit-by-blue-yonder-ransomware-attack/">
