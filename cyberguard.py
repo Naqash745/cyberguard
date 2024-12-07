@@ -100,7 +100,8 @@ if selection=="Dashboard":
     
     url=f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv"
     df=pd.read_csv(url)
-    st.write(df)
+    # df.values
+    st.write(df.values[:-2])
     st.write("Latest Updates")
     col1,col2,col3=st.columns(3)
     with col1:
