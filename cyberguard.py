@@ -94,7 +94,7 @@ st.title("CYBER-GUARD")
 selection=st.sidebar.selectbox("Select",("Dashboard","Cyber Awareness Chatbot","Malicious File Scanner","Education Portal"))
 
 if selection=="Dashboard":
-    st.subheader("Welcome to Education Dashboard")
+    st.subheader("Welcome to Dashboard")
     st.write("Latest Updates")
     col1,col2,col3=st.columns(3)
     with col1:
