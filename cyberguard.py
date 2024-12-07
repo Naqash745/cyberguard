@@ -95,6 +95,8 @@ selection=st.sidebar.selectbox("Select",("Dashboard","Cyber Awareness Chatbot","
 
 if selection=="Dashboard":
     st.subheader("Welcome to Dashboard")
+    df=pd.read_csv("https://docs.google.com/spreadsheets/d/1QE9qW7DxaYp44RvTM0YUtpRFoe4GPt9i0WX-_OruXHM/edit?resourcekey&usp=forms_web_b&urp=initialLink#gid=567749042")
+    st.write(df)
     st.write("Latest Updates")
     col1,col2,col3=st.columns(3)
     with col1:
