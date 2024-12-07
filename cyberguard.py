@@ -91,6 +91,24 @@ st.title("CYBER-GUARD")
 #######################################################################
 
 
+import streamlit as st
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Sample data
+# data = {
+#     "Question": ["Q1", "Q2", "Q3", "Q4"],
+#     "User_Response": ["A", "C", "B", "D"]
+# }
+# df = pd.DataFrame(data)
+
+
+
+
+
+
+
+
 selection=st.sidebar.selectbox("Select",("Dashboard","Cyber Awareness Chatbot","Malicious File Scanner","Education Portal"))
 
 if selection=="Dashboard":
@@ -101,8 +119,43 @@ if selection=="Dashboard":
     url=f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv"
     df=pd.read_csv(url,names=["Timestamp","Q1","Q2"])
     # df.values
-    st.write(df.iloc[-1,1:])
-    st.write("Latest Updates")
+    # st.write(df.iloc[-1,1:])
+    st.write(df.T)
+
+    # Correct answers
+    # correct_answers = ["A", "A"]
+    
+    # # Validate answers
+    # df["Is_Correct"] = df["User_Response"] == correct_answers
+    
+    # # Count correct and incorrect answers
+    # correct_count = df["Is_Correct"].sum()
+    # incorrect_count = len(df) - correct_count
+    
+    # # Pie chart data
+    # labels = ["Correct", "Incorrect"]
+    # sizes = [correct_count, incorrect_count]
+    # colors = ["#4CAF50", "#F44336"]
+    
+    # # Streamlit app
+    # st.title("Answer Validation and Analysis")
+    # st.write("### User Responses and Validation:")
+    # st.dataframe(df)
+    
+    # Display pie chart
+    fig, ax = plt.subplots()
+    ax.pie(sizes, labels=labels, colors=colors, autopct="%1.1f%%", startangle=90)
+    ax.axis("equal")  # Equal aspect ratio ensures the pie is drawn as a circle.
+    st.write("### Answer Validation Results:")
+    st.pyplot(fig)
+
+
+
+
+
+
+    
+    st.write("Latest Cyber Attacks")
     col1,col2,col3=st.columns(3)
     with col1:
         st.markdown('''
