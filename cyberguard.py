@@ -116,18 +116,18 @@ if selection=="Dashboard":
     for i,j in zip(responses,["A", "A"]):
         # st.write(i,j)
         if i==j:
-            correct.append(1)
+            correct.append("Right")
         else:
             st.write(i,j)
-            correct.append(0)
+            correct.append("Wrong")
     
     col1,col2,col3=st.columns(3)
     st.write(correct)
     with col1:
         # Display pie chart
         fig, ax = plt.subplots(figsize=(5, 5))
-        sns.barplot(correct,ax=ax)
-        # ax.pie([1,0], labels=["Correct","Wrong"], autopct="%1.1f%%", startangle=90)
+        # sns.barplot(correct,ax=ax)
+        ax.pie(correct, labels=["Correct","Wrong"], autopct="%1.1f%%", startangle=90)
         # ax.axis("equal")  # Equal aspect ratio ensures the pie is drawn as a circle.
         st.write("### Answer Validation Results:")
         st.pyplot(fig)
