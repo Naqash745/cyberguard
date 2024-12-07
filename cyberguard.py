@@ -108,7 +108,7 @@ if selection=="Dashboard":
     url=f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv"
     df=pd.read_csv(url,names=["Timestamp","Q1","Q2"])
     # df.values
-    st.write(df.iloc[-1,1:].values)
+    # st.write(df.iloc[-1,1:].values)
     responses=df.iloc[-1,1:].values
     # correct_answers = ["A", "A"]
     correct=[]
@@ -129,7 +129,7 @@ if selection=="Dashboard":
         # sns.barplot(correct,ax=ax)
         ax.pie(correct, labels=["Correct","Wrong"], autopct="%1.1f%%", startangle=90)
         # ax.axis("equal")  # Equal aspect ratio ensures the pie is drawn as a circle.
-        st.write("### Answer Validation Results:")
+        st.write("### Cyber Awareness Score")
         st.pyplot(fig)
 
 
