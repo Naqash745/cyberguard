@@ -119,7 +119,7 @@ if selection=="Dashboard":
             correct.append(1)
         else:
             st.write(i,j)
-            correct.append(-1)
+            correct.append(2)
     
     col1,col2,col3=st.columns(3)
     st.write(correct)
