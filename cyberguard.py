@@ -146,4 +146,5 @@ if selection=="Education Portal":
         </a>''',
         unsafe_allow_html=True
         )
+        st.caption("New Google Project Aims to Become Global Clearinghouse for Scam, Fraud Data")
 
