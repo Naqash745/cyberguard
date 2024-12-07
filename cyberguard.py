@@ -113,6 +113,7 @@ if selection=="Dashboard":
     correct=[]
     # wrong=[]
     for i,j in zip(responses,["A", "A"]):
+        st.write(i,j)
         if i==j:
             correct.append(1)
         else:
