@@ -96,18 +96,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Sample data
-# data = {
-#     "Question": ["Q1", "Q2", "Q3", "Q4"],
-#     "User_Response": ["A", "C", "B", "D"]
-# }
-# df = pd.DataFrame(data)
-
-
-
-
-
-
-
 
 selection=st.sidebar.selectbox("Select",("Dashboard","Cyber Awareness Chatbot","Malicious File Scanner","Education Portal"))
 
@@ -119,8 +107,8 @@ if selection=="Dashboard":
     url=f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv"
     df=pd.read_csv(url,names=["Timestamp","Q1","Q2"])
     # df.values
-    # st.write(df.iloc[-1,1:])
-    st.write(df.T)
+    st.write(df.iloc[-1,1:].values)
+    # st.write(df.T)
 
     # Correct answers
     # correct_answers = ["A", "A"]
