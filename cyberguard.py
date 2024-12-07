@@ -116,10 +116,10 @@ if selection=="Dashboard":
     for i,j in zip(responses,["A", "A"]):
         # st.write(i,j)
         if i==j:
-            correct.append(1)
+            correct.append(True)
         else:
             st.write(i,j)
-            correct.append(2)
+            correct.append(False)
     
     col1,col2,col3=st.columns(3)
     st.write(correct)
