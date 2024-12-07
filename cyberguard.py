@@ -91,9 +91,7 @@ api= os.getenv("VT_API_KEY")
 #######################################################################
 
 
-
-
-selection=st.sidebar.selectbox("Select",("Cyber Awareness Chatbot","Malicious File Scanner"))
+selection=st.sidebar.selectbox("Select",("Cyber Awareness Chatbot","Malicious File Scanner","Education Portal"))
 
 if selection=="Cyber Awareness Chatbot":
     st.subheader("Cyber Awareness Chatbot")
@@ -122,3 +120,14 @@ if selection=="Malicious File Scanner":
         # json_string = json.dumps(report)
         
         st.write(response)
+
+if selection=="Education Portal":
+    st.subheader("Welcome to Education Portal")
+    col1,col2,col3=st.columns(3)
+    with col1:
+        st.markdown('''
+        <a href="https://docs.streamlit.io">
+            <img src="https://media.tenor.com/images/ac3316998c5a2958f0ee8dfe577d5281/tenor.gif" />
+        </a>''',
+        unsafe_allow_html=True
+        )
