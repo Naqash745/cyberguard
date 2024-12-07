@@ -156,5 +156,7 @@ if selection=="Cyber Awareness Chatbot":
 if selection=="Education Portal":
     st.subheader("Welcome to Education Portal")
     url="https://docs.google.com/forms/d/e/1FAIpQLSeRVC8WVGSqDHN5B9_kX18RbRnS0gOFyMbKYZFqzBSGyP5rLA/viewform?usp=header"
-    st.markdown("Test your Knowledge" % url)
+    st.write("Test Your Cyber Knowledge [Here](https://docs.google.com/forms/d/e/1FAIpQLSeRVC8WVGSqDHN5B9_kX18RbRnS0gOFyMbKYZFqzBSGyP5rLA/viewform?usp=header")
+    
+# st.markdown("Test your Knowledge" %url)
      
