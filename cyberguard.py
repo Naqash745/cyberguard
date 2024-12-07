@@ -127,7 +127,7 @@ if selection=="Education Portal":
     with col1:
         st.markdown('''
         <a href="https://docs.streamlit.io">
-            <img src="https://media.tenor.com/images/ac3316998c5a2958f0ee8dfe577d5281/tenor.gif" />
+            <img src="https://www.google.com/imgres?q=pdf%20link&imgurl=https%3A%2F%2Fwww.computerhope.com%2Fjargon%2Fp%2Fpdf.png&imgrefurl=https%3A%2F%2Fwww.computerhope.com%2Fissues%2Fch001278.htm&docid=2weGa-4Rtg0EcM&tbnid=2sRrPgKEXtHsrM&vet=12ahUKEwi_7LL96pWKAxXFVfEDHVbEN6oQM3oECF0QAA..i&w=350&h=350&hcb=2&ved=2ahUKEwi_7LL96pWKAxXFVfEDHVbEN6oQM3oECF0QAA" />
         </a>''',
         unsafe_allow_html=True
         )
