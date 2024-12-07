@@ -118,13 +118,14 @@ if selection=="Dashboard":
         else:
             correct.append(0)
     
-        
-    # Display pie chart
-    fig, ax = plt.subplots(figsize=(5, 5))
-    ax.pie(correct, labels=["Correct","Wrong"], autopct="%1.1f%%", startangle=90)
-    ax.axis("equal")  # Equal aspect ratio ensures the pie is drawn as a circle.
-    st.write("### Answer Validation Results:")
-    st.pyplot(fig)
+    col1,col2,col3=st.columns(3)
+    with col1:
+        # Display pie chart
+        fig, ax = plt.subplots(figsize=(5, 5))
+        ax.pie(correct, labels=["Correct","Wrong"], autopct="%1.1f%%", startangle=90)
+        ax.axis("equal")  # Equal aspect ratio ensures the pie is drawn as a circle.
+        st.write("### Answer Validation Results:")
+        st.pyplot(fig)
 
 
 
