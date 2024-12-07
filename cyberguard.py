@@ -98,9 +98,8 @@ if selection=="Dashboard":
     sheet_name = 'Cyber Quiz (Responses)' # replace with your own sheet name
     sheet_id = '1QE9qW7DxaYp44RvTM0YUtpRFoe4GPt9i0WX-_OruXHM' # replace with your sheet's ID
     
-    df=pd.read_csv('https://docs.google.com/spreadsheets/d/' + 
-                   '1QE9qW7DxaYp44RvTM0YUtpRFoe4GPt9i0WX-_OruXHM' +
-                   '/export?gid=0&format=csv')
+    url=f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv"
+    df=pd.read_csv(url)
     st.write(df)
     st.write("Latest Updates")
     col1,col2,col3=st.columns(3)
