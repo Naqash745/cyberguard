@@ -123,11 +123,12 @@ if selection=="Cyber Awareness Chatbot":
 
 if selection=="Education Portal":
     st.subheader("Welcome to Education Portal")
-    col1,col2,col3=st.columns(3)
+    st.write("Latest Updates")
+    col1,col2,col3,col4,col5=st.columns(5)
     with col1:
         st.markdown('''
-        <a href="https://docs.streamlit.io">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1667px-PDF_file_icon.svg.png" />
+        <a href="https://www.securityweek.com/starbucks-grocery-stores-hit-by-blue-yonder-ransomware-attack/">
+            <img src="https://www.securityweek.com/wp-content/uploads/2024/01/Supply-Chain-Software-Attack.jpg" />
         </a>''',
         unsafe_allow_html=True
         )
