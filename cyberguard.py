@@ -143,11 +143,11 @@ if selection=="Dashboard":
     # st.dataframe(df)
     
     # Display pie chart
-    fig, ax = plt.subplots()
-    ax.pie(sizes, labels=labels, colors=colors, autopct="%1.1f%%", startangle=90)
-    ax.axis("equal")  # Equal aspect ratio ensures the pie is drawn as a circle.
-    st.write("### Answer Validation Results:")
-    st.pyplot(fig)
+    # fig, ax = plt.subplots()
+    # ax.pie(sizes, labels=labels, colors=colors, autopct="%1.1f%%", startangle=90)
+    # ax.axis("equal")  # Equal aspect ratio ensures the pie is drawn as a circle.
+    # st.write("### Answer Validation Results:")
+    # st.pyplot(fig)
 
 
 
