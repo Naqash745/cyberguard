@@ -132,3 +132,18 @@ if selection=="Education Portal":
         </a>''',
         unsafe_allow_html=True
         )
+    with col2:
+        st.markdown('''
+        <a href="https://www.securityweek.com/hackers-stole-1-49-billion-in-cryptocurrency-to-date-in-2024/">
+            <img src="https://www.securityweek.com/wp-content/uploads/2024/01/cryptocurrency.jpeg" width="500" height="200" />
+        </a>''',
+        unsafe_allow_html=True
+        )
+    with col3:
+        st.markdown('''
+        <a href="https://www.securityweek.com/new-google-project-aims-to-become-global-clearinghouse-for-scam-fraud-data/">
+            <img src="https://www.securityweek.com/wp-content/themes/zoxpress-child/assets/img/posts/security-week-post-0.jpg" width="500" height="200" />
+        </a>''',
+        unsafe_allow_html=True
+        )
+
