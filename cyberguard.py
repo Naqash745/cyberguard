@@ -113,10 +113,11 @@ if selection=="Dashboard":
     correct=[]
     # wrong=[]
     for i,j in zip(responses,["A", "A"]):
-        st.write(i,j)
+        # st.write(i,j)
         if i==j:
             correct.append(1)
         else:
+            st.write(i,j)
             correct.append(0)
     
     col1,col2,col3=st.columns(3)
