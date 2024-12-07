@@ -91,7 +91,39 @@ st.title("CYBER-GUARD")
 #######################################################################
 
 
-selection=st.sidebar.selectbox("Select",("Cyber Awareness Chatbot","Malicious File Scanner","Education Portal"))
+selection=st.sidebar.selectbox("Select",("Dashboard","Cyber Awareness Chatbot","Malicious File Scanner","Education Portal"))
+
+if selection=="Dashboard":
+    st.subheader("Welcome to Education Dashboard")
+    st.write("Latest Updates")
+    col1,col2,col3=st.columns(3)
+    with col1:
+        st.markdown('''
+        <a href="https://www.securityweek.com/starbucks-grocery-stores-hit-by-blue-yonder-ransomware-attack/">
+            <img src="https://www.securityweek.com/wp-content/uploads/2024/01/Supply-Chain-Software-Attack.jpg" width="500" height="200" />
+        </a>''',
+        unsafe_allow_html=True
+        )
+        st.caption("Starbucks, Grocery Stores Hit by Blue Yonder Ransomware Attack")
+    with col2:
+        st.markdown('''
+        <a href="https://www.securityweek.com/hackers-stole-1-49-billion-in-cryptocurrency-to-date-in-2024/">
+            <img src="https://www.securityweek.com/wp-content/uploads/2024/01/cryptocurrency.jpeg" width="500" height="200" />
+        </a>''',
+        unsafe_allow_html=True
+        )
+        st.caption("Hackers Stole $1.49 Billion in Cryptocurrency to Date in 2024")
+    with col3:
+        st.markdown('''
+        <a href="https://www.securityweek.com/new-google-project-aims-to-become-global-clearinghouse-for-scam-fraud-data/">
+            <img src="https://www.securityweek.com/wp-content/themes/zoxpress-child/assets/img/posts/security-week-post-0.jpg" width="500" height="200" />
+        </a>''',
+        unsafe_allow_html=True
+        )
+        st.caption("New Google Project Aims to Become Global Clearinghouse for Scam, Fraud Data")
+
+
+
 
 if selection=="Cyber Awareness Chatbot":
     st.subheader("Cyber Awareness Chatbot")
