@@ -128,7 +128,7 @@ if selection=="Education Portal":
     with col1:
         st.markdown('''
         <a href="https://www.securityweek.com/starbucks-grocery-stores-hit-by-blue-yonder-ransomware-attack/">
-            <img src="https://www.securityweek.com/wp-content/uploads/2024/01/Supply-Chain-Software-Attack.jpg" width="500" height="600" />
+            <img src="https://www.securityweek.com/wp-content/uploads/2024/01/Supply-Chain-Software-Attack.jpg" width="500" height="300" />
         </a>''',
         unsafe_allow_html=True
         )
