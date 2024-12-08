@@ -287,30 +287,35 @@ if selection=="Education Portal":
         st.caption("What is Cybercrime?")
         st.video("https://youtu.be/X7kFAy1E8Jw?si=lKWx-y3Tz1_dsSQP")
     with col2:
-        st.caption("What is Cybercrime?")
+        st.caption("What is Cybersecurity?")
         st.video("https://youtu.be/Yr0xPVFcf-U?si=xNHedIZgSQbUc9f_")
 
     col1,col2=st.columns(2)
     with col1:
-        st.video("https://youtu.be/VJFaO2-zsCU?si=tiKXA6NRT-YCPNJr")
-    # col1,col2=st.columns(2)
-    # with col1:
-    #     st.markdown('''
-    #     <iframe width="420" height="315"
-    #     src="https://youtu.be/X7kFAy1E8Jw?si=lKWx-y3Tz1_dsSQP">
-    #     </iframe>
-    #     ''',
-    #     unsafe_allow_html=True
-    #     )
-    # with col2:
-    #     st.markdown('''
-    #     <iframe width="420" height="315"
-    #     src="https://youtu.be/Yr0xPVFcf-U?si=xNHedIZgSQbUc9f_">
-    #     </iframe>
-    #     ''',
-    #     unsafe_allow_html=True
-    #     )
-#------
+        st.caption("Malware and its types")
+        st.video("https://youtu.be/n8mbzU0X2nQ?si=rqCjBFgrcmsj3WEw")
+    with col2:
+        st.caption("Tip for online data security")
+        st.video("https://youtu.be/aO858HyFbKI?si=K7mDm_E4WysamUuK")
+
+    col1,col2=st.columns(2)
+    with col1:
+        st.caption("How to Protect yourself against cybercrime?")
+        st.video("https://youtu.be/EHqXMxY4_Nk?si=gyIz1gJhS2EfoHMr")
+    with col2:
+        st.caption("Why do cybercriminals want your computer?")
+        st.video("https://youtu.be/NZ21QKzZtcI?si=rgaYN3mGvn-j-jT1")
+
+
+    col1,col2=st.columns(2)
+    with col1:
+        st.caption("What is ransomware?")
+        st.video("https://youtu.be/Vkjekr6jacg?si=NK_flkc0lXvLdQcy")
+    with col2:
+        st.caption("What is social engineering?")
+        st.video("https://youtu.be/uvKTMgWRPw4?si=mCMtBaddyfM0OTU5")
+
+    
     col1,col2=st.columns(2)
     with col1:
         st.markdown('''
