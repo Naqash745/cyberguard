@@ -152,6 +152,7 @@ if selection=="Dashboard":
 
     col1,col2,col3=st.columns(3)
     with col1:
+        st.caption("Fundamentals")
         # st.write("The following list won’t indent no matter what I try:")
         st.markdown("- Keep system software updated")
         st.markdown("- Use secure internet connections")
@@ -162,19 +163,22 @@ if selection=="Dashboard":
         st.markdown("- Do not click on links you do not recognise.")
         st.markdown("- Protect your personal data.")
         st.markdown("- Be aware of where you are sending your data.")
+        st.markdown("- Uninstall apps you are not using.")
+        st.markdown("- Do not use public/free Wi-Fi – personal hotspots are safer.")
+        st.markdown("- Use a strong, well-regarded browser. Google Chrome is the strongest in industry tests.")
+        st.markdown("- Ensure that you only use apps from a reputable source.")
     with col2:
+            st.caption("Essentials")
             # st.write("The following list won’t indent no matter what I try:")
             st.markdown("- Create complex passwords, protect passwords and change them regularly, do not reuse passwords across multiple systems and do not share passwords with colleagues.")
             st.markdown("- Use multi-factor authentication.")
             st.markdown("- Do not use public/free Wi-Fi – personal hotspots are safer.")
             st.markdown("- Use VPN and dongles (small, removable devices that have secure access to wireless broadband) when travelling.")
-            st.markdown("- Ensure that you only use apps from a reputable source.")
-            st.markdown("- Uninstall apps you are not using.")
-            st.markdown("- Do not use public/free Wi-Fi – personal hotspots are safer.")
-            st.markdown("- Use a strong, well-regarded browser. Google Chrome is the strongest in industry tests.")
-            st.markdown("- Ensure that you only use apps from a reputable source.")
-            st.markdown("- Uninstall apps you are not using.")
+
+
+
     with col3:
+            st.caption("Critical")
             # st.write("The following list won’t indent no matter what I try:")
             st.markdown("- Turn on your browser’s popup blocker. A popup blocker should be enabled at all times while browsing the internet.")
             st.markdown("- Do not use public phone chargers to avoid the risk of ‘juice jacking’.")
