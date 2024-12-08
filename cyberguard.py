@@ -152,10 +152,47 @@ if selection=="Dashboard":
 
     col1,col2,col3=st.columns(3)
     with col1:
-        st.write("The following list won’t indent no matter what I try:")
-        st.markdown("- Item 1")
-        st.markdown("- Item 2")
-        st.markdown("- Item 3")
+        # st.write("The following list won’t indent no matter what I try:")
+        st.markdown("- Keep system software updated")
+        st.markdown("- Use secure internet connections")
+        st.markdown("- Secure web browsing and email")
+        st.markdown("- Implement data retention, loss recovery capability")
+        st.markdown("- Encrypt data and devices")
+        st.markdown("- Secure devices that retain data")
+        st.markdown("- Do not click on links you do not recognise.")
+        st.markdown("- Protect your personal data.")
+        st.markdown("- Be aware of where you are sending your data.")
+with col2:
+        # st.write("The following list won’t indent no matter what I try:")
+        st.markdown("- Create complex passwords, protect passwords and change them regularly, do not reuse passwords across multiple systems and do not share passwords with colleagues.")
+        st.markdown("- Use multi-factor authentication.")
+        st.markdown("- Do not use public/free Wi-Fi – personal hotspots are safer.")
+        st.markdown("- Use VPN and dongles (small, removable devices that have secure access to wireless broadband) when travelling.")
+        st.markdown("- Ensure that you only use apps from a reputable source.")
+        st.markdown("- Uninstall apps you are not using.")
+        st.markdown("- Do not use public/free Wi-Fi – personal hotspots are safer.")
+        st.markdown("- Use a strong, well-regarded browser. Google Chrome is the strongest in industry tests.")
+        st.markdown("- Ensure that you only use apps from a reputable source.")
+        st.markdown("- Uninstall apps you are not using.")
+with col3:
+        # st.write("The following list won’t indent no matter what I try:")
+        st.markdown("- Turn on your browser’s popup blocker. A popup blocker should be enabled at all times while browsing the internet.")
+        st.markdown("- Do not use public phone chargers to avoid the risk of ‘juice jacking’.")
+        st.markdown("- Check for ‘https:’ or a padlock icon on your browser’s URL bar to verify that a site is secure before entering any personal information.")
+        st.markdown("- Understand the permissions you are granting to apps (eg, tracking your location and access to your contacts or camera).")
+        st.markdown("- Report all phishing/spear phishing to the person designated to deal with cybersecurity concerns, even if the email is sent to your personal account rather than work.")
+        st.markdown("- Uninstall apps you are not using.")
+        st.markdown("- Do not use public/free Wi-Fi – personal hotspots are safer.")
+        st.markdown("- Use VPN and dongles (small, removable devices that have secure access to wireless broadband) when travelling.")
+        st.markdown("- Ensure that you only use apps from a reputable source.")
+        st.markdown("- Uninstall apps you are not using.")
+
+    
+
+
+
+
+
 
 
 
