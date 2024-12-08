@@ -284,22 +284,10 @@ if selection=="Education Portal":
 
     col1,col2=st.columns(2)
     with col1:
+        st.caption("What is Cybercrime?")
         st.video("https://youtu.be/X7kFAy1E8Jw?si=lKWx-y3Tz1_dsSQP")
-        # st.markdown('''
-        # <iframe width="420" height="315"
-        # src="https://youtu.be/X7kFAy1E8Jw?si=lKWx-y3Tz1_dsSQP">
-        # </iframe>
-        # ''',
-        # unsafe_allow_html=True
-        # )
     with col2:
-        st.markdown('''
-        <iframe width="420" height="315"
-        src="https://youtu.be/Yr0xPVFcf-U?si=xNHedIZgSQbUc9f_">
-        </iframe>
-        ''',
-        unsafe_allow_html=True
-        )
+        st.video("https://youtu.be/Yr0xPVFcf-U?si=xNHedIZgSQbUc9f_")
 
     # col1,col2=st.columns(2)
     # with col1:
