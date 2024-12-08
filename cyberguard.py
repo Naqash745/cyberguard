@@ -339,7 +339,7 @@ if selection=="Education Portal":
     with col1:
         st.markdown('''
         <a href="https://www.ftc.gov/system/files/attachments/cybersecurity-small-business/cybersecuirty_sb_factsheets_all.pdf">
-            <img src="https://devtorium.com/wp-content/webp-express/webp-images/uploads/2023/01/services_security_illustration.png.webp" width="200" height="200" />
+            <img src="https://devtorium.com/wp-content/webp-express/webp-images/uploads/2023/01/services_security_illustration.png.webp" width="250" height="200" />
         </a>''',
         unsafe_allow_html=True
         )
