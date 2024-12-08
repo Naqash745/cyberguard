@@ -282,6 +282,11 @@ if selection=="Cyber Awareness Chatbot":
 if selection=="Education Portal":
     st.subheader("Welcome to Education Portal")
 
+    st.write("")
+
+    st.html(
+    "<h1>Fundamentals</h1>")
+
     col1,col2=st.columns(2)
     with col1:
         st.caption("What is Cybercrime?")
@@ -314,6 +319,26 @@ if selection=="Education Portal":
     with col2:
         st.caption("What is social engineering?")
         st.video("https://youtu.be/uvKTMgWRPw4?si=mCMtBaddyfM0OTU5")
+
+    col1,col2=st.columns(2)
+    with col1:
+        st.caption("How to protect your privacy online?")
+        st.video("https://youtu.be/JO55V34EnK8?si=4GKhg5ZxyHrYa21m")
+    with col2:
+        st.caption("What is social engineering?")
+        st.video("https://youtu.be/uvKTMgWRPw4?si=mCMtBaddyfM0OTU5")
+
+    col1,col2=st.columns(2)
+    with col1:
+        st.caption("What is ransomware?")
+        st.video("https://youtu.be/Vkjekr6jacg?si=NK_flkc0lXvLdQcy")
+    with col2:
+        st.caption("What is social engineering?")
+        st.video("https://youtu.be/uvKTMgWRPw4?si=mCMtBaddyfM0OTU5")
+
+
+
+
 
     
     col1,col2=st.columns(2)
