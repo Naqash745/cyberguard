@@ -302,22 +302,24 @@ if selection=="Education Portal":
     with col2:
         st.caption("Tip for online data security")
         st.video("https://youtu.be/aO858HyFbKI?si=K7mDm_E4WysamUuK")
+    if st.expander("More"):
 
-    col1,col2=st.columns(2)
-    with col1:
-        st.caption("How to Protect yourself against cybercrime?")
-        st.video("https://youtu.be/EHqXMxY4_Nk?si=gyIz1gJhS2EfoHMr")
-    with col2:
-        st.caption("Why do cybercriminals want your computer?")
-        st.video("https://youtu.be/NZ21QKzZtcI?si=rgaYN3mGvn-j-jT1")
-    with col1:
-        st.caption("How to protect your accounts?")
-        st.video("https://youtu.be/FuAs931mG08?si=hWlGuNgtkgGHryvn")
-    with col2:
-        st.caption("How you leak your data online?")
-        st.video("https://youtu.be/Meh6NtQ-8iA?si=0eyMtMP-vo-IfgiQ")
+        col1,col2=st.columns(2)
+        with col1:
+            st.caption("How to Protect yourself against cybercrime?")
+            st.video("https://youtu.be/EHqXMxY4_Nk?si=gyIz1gJhS2EfoHMr")
+        with col2:
+            st.caption("Why do cybercriminals want your computer?")
+            st.video("https://youtu.be/NZ21QKzZtcI?si=rgaYN3mGvn-j-jT1")
+        
+        
+        with col1:
+            st.caption("How to protect your accounts?")
+            st.video("https://youtu.be/FuAs931mG08?si=hWlGuNgtkgGHryvn")
+        with col2:
+            st.caption("How you leak your data online?")
+            st.video("https://youtu.be/Meh6NtQ-8iA?si=0eyMtMP-vo-IfgiQ")
 
-    with st.expander("More"):
         col1,col2=st.columns(2)
         with col1:
             st.caption("What is ransomware?")
