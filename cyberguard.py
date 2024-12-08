@@ -347,7 +347,7 @@ if selection=="Education Portal":
     with col2:
         st.markdown('''
         <a href="https://www.ibanet.org/MediaHandler?id=2F9FA5D6-6E9D-413C-AF80-681BAFD300B0">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/International_Bar_Association_logo.svg/205px-International_Bar_Association_logo.svg.png" width="500" height="200" />
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/88/76/9788767b-054e-b968-d21a-9180e80c77de/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg" width="500" height="200" />
         </a>''',
         unsafe_allow_html=True
         )
