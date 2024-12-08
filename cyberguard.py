@@ -213,11 +213,19 @@ if selection=="Cyber Awareness Chatbot":
         
 #         st.write(response)
 
+
+
+
 if selection=="Education Portal":
     col1,col2=st.columns(2)
     with col1:
-        VIDEO_URL = "https://youtu.be/VJFaO2-zsCU?si=tiKXA6NRT-YCPNJr"
-        st.video(VIDEO_URL)
+        st.markdown('''
+        <iframe width="420" height="315"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
+        ''',
+        unsafe_allow_html=True
+        )
     st.subheader("Welcome to Education Portal")
     url="https://docs.google.com/forms/d/e/1FAIpQLSeRVC8WVGSqDHN5B9_kX18RbRnS0gOFyMbKYZFqzBSGyP5rLA/viewform?usp=header"
     st.write("Test Your Cyber Knowledge [Here](https://docs.google.com/forms/d/e/1FAIpQLSeRVC8WVGSqDHN5B9_kX18RbRnS0gOFyMbKYZFqzBSGyP5rLA/viewform?usp=header)")
