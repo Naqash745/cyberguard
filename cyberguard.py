@@ -310,31 +310,37 @@ if selection=="Education Portal":
     with col2:
         st.caption("Why do cybercriminals want your computer?")
         st.video("https://youtu.be/NZ21QKzZtcI?si=rgaYN3mGvn-j-jT1")
-
-
-    col1,col2=st.columns(2)
     with col1:
-        st.caption("What is ransomware?")
-        st.video("https://youtu.be/Vkjekr6jacg?si=NK_flkc0lXvLdQcy")
+        st.caption("How to protect your accounts?")
+        st.video("https://youtu.be/FuAs931mG08?si=hWlGuNgtkgGHryvn")
     with col2:
-        st.caption("What is social engineering?")
-        st.video("https://youtu.be/uvKTMgWRPw4?si=mCMtBaddyfM0OTU5")
+        st.caption("How you leak your data online?")
+        st.video("https://youtu.be/Meh6NtQ-8iA?si=0eyMtMP-vo-IfgiQ")
 
-    col1,col2=st.columns(2)
-    with col1:
-        st.caption("How to protect your privacy online?")
-        st.video("https://youtu.be/JO55V34EnK8?si=4GKhg5ZxyHrYa21m")
-    with col2:
-        st.caption("What is social engineering?")
-        st.video("https://youtu.be/uvKTMgWRPw4?si=mCMtBaddyfM0OTU5")
-
-    col1,col2=st.columns(2)
-    with col1:
-        st.caption("What is ransomware?")
-        st.video("https://youtu.be/Vkjekr6jacg?si=NK_flkc0lXvLdQcy")
-    with col2:
-        st.caption("What is social engineering?")
-        st.video("https://youtu.be/uvKTMgWRPw4?si=mCMtBaddyfM0OTU5")
+    with st.expander("More"):
+        col1,col2=st.columns(2)
+        with col1:
+            st.caption("What is ransomware?")
+            st.video("https://youtu.be/Vkjekr6jacg?si=NK_flkc0lXvLdQcy")
+        with col2:
+            st.caption("What is social engineering?")
+            st.video("https://youtu.be/uvKTMgWRPw4?si=mCMtBaddyfM0OTU5")
+    
+        col1,col2=st.columns(2)
+        with col1:
+            st.caption("How to protect your privacy online?")
+            st.video("https://youtu.be/JO55V34EnK8?si=4GKhg5ZxyHrYa21m")
+        with col2:
+            st.caption("How to protect your digital vallet?")
+            st.video("https://youtu.be/2UMdkiXcMGU?si=1KUITh02f7AU8Ovr")
+    
+        col1,col2=st.columns(2)
+        with col1:
+            st.caption("How to configure privacy in Facebook?")
+            st.video("https://youtu.be/ht9OmCJnxnA?si=JXf726uxyPtcU-qL")
+        with col2:
+            st.caption("How to configure privacy in Instagram?")
+            st.video("https://youtu.be/ZcQzqdnkKvk?si=g5O2DzZG-Z4HNhCu")
 
 
 
