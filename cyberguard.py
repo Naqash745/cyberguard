@@ -306,10 +306,10 @@ if selection=="Education Portal":
     with st.expander("More"):
         st.write("dkjf")
 
-#         col1,col2=st.columns(2)
-#         with col1:
-#             st.caption("How to Protect yourself against cybercrime?")
-#             st.video("https://youtu.be/EHqXMxY4_Nk?si=gyIz1gJhS2EfoHMr")
+        col1,col2=st.columns(2)
+        with col1:
+            st.caption("How to Protect yourself against cybercrime?")
+            st.video("https://youtu.be/EHqXMxY4_Nk?si=gyIz1gJhS2EfoHMr")
 #         with col2:
 #             st.caption("Why do cybercriminals want your computer?")
 #             st.video("https://youtu.be/NZ21QKzZtcI?si=rgaYN3mGvn-j-jT1")
