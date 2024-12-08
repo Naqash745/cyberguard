@@ -282,58 +282,58 @@ if selection=="Cyber Awareness Chatbot":
 if selection=="Education Portal":
     st.subheader("Welcome to Education Portal")
 
-    col1,col2=st.columns(2)
-    with col1:
-        st.markdown('''
-        <iframe width="420" height="315"
-        src="https://youtu.be/X7kFAy1E8Jw?si=lKWx-y3Tz1_dsSQP">
-        </iframe>
-        ''',
-        unsafe_allow_html=True
-        )
-    with col2:
-        st.markdown('''
-        <iframe width="420" height="315"
-        src="https://youtu.be/Yr0xPVFcf-U?si=xNHedIZgSQbUc9f_">
-        </iframe>
-        ''',
-        unsafe_allow_html=True
-        )
+    # col1,col2=st.columns(2)
+    # with col1:
+    #     st.markdown('''
+    #     <iframe width="420" height="315"
+    #     src="https://youtu.be/X7kFAy1E8Jw?si=lKWx-y3Tz1_dsSQP">
+    #     </iframe>
+    #     ''',
+    #     unsafe_allow_html=True
+    #     )
+    # with col2:
+    #     st.markdown('''
+    #     <iframe width="420" height="315"
+    #     src="https://youtu.be/Yr0xPVFcf-U?si=xNHedIZgSQbUc9f_">
+    #     </iframe>
+    #     ''',
+    #     unsafe_allow_html=True
+    #     )
 
-    col1,col2=st.columns(2)
-    with col1:
-        st.markdown('''
-        <iframe width="420" height="315"
-        src="https://youtu.be/Yr0xPVFcf-U?si=xNHedIZgSQbUc9f_">
-        </iframe>
-        ''',
-        unsafe_allow_html=True
-        )
-    with col2:
-        st.markdown('''
-        <iframe width="420" height="315"
-        src="https://youtu.be/VJFaO2-zsCU?si=tiKXA6NRT-YCPNJr">
-        </iframe>
-        ''',
-        unsafe_allow_html=True
-        )
-    col1,col2=st.columns(2)
-    with col1:
-        st.markdown('''
-        <iframe width="420" height="315"
-        src="https://youtu.be/X7kFAy1E8Jw?si=lKWx-y3Tz1_dsSQP">
-        </iframe>
-        ''',
-        unsafe_allow_html=True
-        )
-    with col2:
-        st.markdown('''
-        <iframe width="420" height="315"
-        src="https://youtu.be/Yr0xPVFcf-U?si=xNHedIZgSQbUc9f_">
-        </iframe>
-        ''',
-        unsafe_allow_html=True
-        )
+    # col1,col2=st.columns(2)
+    # with col1:
+    #     st.markdown('''
+    #     <iframe width="420" height="315"
+    #     src="https://youtu.be/Yr0xPVFcf-U?si=xNHedIZgSQbUc9f_">
+    #     </iframe>
+    #     ''',
+    #     unsafe_allow_html=True
+    #     )
+    # with col2:
+    #     st.markdown('''
+    #     <iframe width="420" height="315"
+    #     src="https://youtu.be/VJFaO2-zsCU?si=tiKXA6NRT-YCPNJr">
+    #     </iframe>
+    #     ''',
+    #     unsafe_allow_html=True
+    #     )
+    # col1,col2=st.columns(2)
+    # with col1:
+    #     st.markdown('''
+    #     <iframe width="420" height="315"
+    #     src="https://youtu.be/X7kFAy1E8Jw?si=lKWx-y3Tz1_dsSQP">
+    #     </iframe>
+    #     ''',
+    #     unsafe_allow_html=True
+    #     )
+    # with col2:
+    #     st.markdown('''
+    #     <iframe width="420" height="315"
+    #     src="https://youtu.be/Yr0xPVFcf-U?si=xNHedIZgSQbUc9f_">
+    #     </iframe>
+    #     ''',
+    #     unsafe_allow_html=True
+    #     )
 #------
     col1,col2=st.columns(2)
     with col1:
@@ -344,9 +344,10 @@ if selection=="Education Portal":
         unsafe_allow_html=True
         )
         st.caption("Cyber Security Basics")
+    with col2:
         st.markdown('''
         <a href="https://www.ibanet.org/MediaHandler?id=2F9FA5D6-6E9D-413C-AF80-681BAFD300B0">
-            <img src="ibant.png" width="500" height="200" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/International_Bar_Association_logo.svg/205px-International_Bar_Association_logo.svg.png" width="500" height="200" />
         </a>''',
         unsafe_allow_html=True
         )
@@ -354,12 +355,6 @@ if selection=="Education Portal":
 
 
 
-
-    
-
-
-
-    
         url="https://docs.google.com/forms/d/e/1FAIpQLSeRVC8WVGSqDHN5B9_kX18RbRnS0gOFyMbKYZFqzBSGyP5rLA/viewform?usp=header"
     st.write("Test Your Cyber Knowledge [Here](https://docs.google.com/forms/d/e/1FAIpQLSeRVC8WVGSqDHN5B9_kX18RbRnS0gOFyMbKYZFqzBSGyP5rLA/viewform?usp=header)")
     
