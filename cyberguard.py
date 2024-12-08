@@ -302,75 +302,77 @@ if selection=="Education Portal":
     with col2:
         st.caption("Tip for online data security")
         st.video("https://youtu.be/aO858HyFbKI?si=K7mDm_E4WysamUuK")
-    if st.expander("More"):
+        
+    with st.expander("More"):
+        st.write("dkjf")
 
-        col1,col2=st.columns(2)
-        with col1:
-            st.caption("How to Protect yourself against cybercrime?")
-            st.video("https://youtu.be/EHqXMxY4_Nk?si=gyIz1gJhS2EfoHMr")
-        with col2:
-            st.caption("Why do cybercriminals want your computer?")
-            st.video("https://youtu.be/NZ21QKzZtcI?si=rgaYN3mGvn-j-jT1")
+#         col1,col2=st.columns(2)
+#         with col1:
+#             st.caption("How to Protect yourself against cybercrime?")
+#             st.video("https://youtu.be/EHqXMxY4_Nk?si=gyIz1gJhS2EfoHMr")
+#         with col2:
+#             st.caption("Why do cybercriminals want your computer?")
+#             st.video("https://youtu.be/NZ21QKzZtcI?si=rgaYN3mGvn-j-jT1")
         
         
-        with col1:
-            st.caption("How to protect your accounts?")
-            st.video("https://youtu.be/FuAs931mG08?si=hWlGuNgtkgGHryvn")
-        with col2:
-            st.caption("How you leak your data online?")
-            st.video("https://youtu.be/Meh6NtQ-8iA?si=0eyMtMP-vo-IfgiQ")
+#         with col1:
+#             st.caption("How to protect your accounts?")
+#             st.video("https://youtu.be/FuAs931mG08?si=hWlGuNgtkgGHryvn")
+#         with col2:
+#             st.caption("How you leak your data online?")
+#             st.video("https://youtu.be/Meh6NtQ-8iA?si=0eyMtMP-vo-IfgiQ")
 
-        col1,col2=st.columns(2)
-        with col1:
-            st.caption("What is ransomware?")
-            st.video("https://youtu.be/Vkjekr6jacg?si=NK_flkc0lXvLdQcy")
-        with col2:
-            st.caption("What is social engineering?")
-            st.video("https://youtu.be/uvKTMgWRPw4?si=mCMtBaddyfM0OTU5")
+#         col1,col2=st.columns(2)
+#         with col1:
+#             st.caption("What is ransomware?")
+#             st.video("https://youtu.be/Vkjekr6jacg?si=NK_flkc0lXvLdQcy")
+#         with col2:
+#             st.caption("What is social engineering?")
+#             st.video("https://youtu.be/uvKTMgWRPw4?si=mCMtBaddyfM0OTU5")
     
-        col1,col2=st.columns(2)
-        with col1:
-            st.caption("How to protect your privacy online?")
-            st.video("https://youtu.be/JO55V34EnK8?si=4GKhg5ZxyHrYa21m")
-        with col2:
-            st.caption("How to protect your digital vallet?")
-            st.video("https://youtu.be/2UMdkiXcMGU?si=1KUITh02f7AU8Ovr")
+#         col1,col2=st.columns(2)
+#         with col1:
+#             st.caption("How to protect your privacy online?")
+#             st.video("https://youtu.be/JO55V34EnK8?si=4GKhg5ZxyHrYa21m")
+#         with col2:
+#             st.caption("How to protect your digital vallet?")
+#             st.video("https://youtu.be/2UMdkiXcMGU?si=1KUITh02f7AU8Ovr")
     
-        col1,col2=st.columns(2)
-        with col1:
-            st.caption("How to configure privacy in Facebook?")
-            st.video("https://youtu.be/ht9OmCJnxnA?si=JXf726uxyPtcU-qL")
-        with col2:
-            st.caption("How to configure privacy in Instagram?")
-            st.video("https://youtu.be/ZcQzqdnkKvk?si=g5O2DzZG-Z4HNhCu")
+#         col1,col2=st.columns(2)
+#         with col1:
+#             st.caption("How to configure privacy in Facebook?")
+#             st.video("https://youtu.be/ht9OmCJnxnA?si=JXf726uxyPtcU-qL")
+#         with col2:
+#             st.caption("How to configure privacy in Instagram?")
+#             st.video("https://youtu.be/ZcQzqdnkKvk?si=g5O2DzZG-Z4HNhCu")
 
 
 
 
 
     
-    col1,col2=st.columns(2)
-    with col1:
-        st.markdown('''
-        <a href="https://www.ftc.gov/system/files/attachments/cybersecurity-small-business/cybersecuirty_sb_factsheets_all.pdf">
-            <img src="https://devtorium.com/wp-content/webp-express/webp-images/uploads/2023/01/services_security_illustration.png.webp" width="250" height="200" />
-        </a>''',
-        unsafe_allow_html=True
-        )
-        st.caption("Cyber Security Basics")
-    with col2:
-        st.markdown('''
-        <a href="https://www.ibanet.org/MediaHandler?id=2F9FA5D6-6E9D-413C-AF80-681BAFD300B0">
-            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/88/76/9788767b-054e-b968-d21a-9180e80c77de/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg" width="200" height="200" />
-        </a>''',
-        unsafe_allow_html=True
-        )
-        st.caption("Cyber Security Guidlines")
+#     col1,col2=st.columns(2)
+#     with col1:
+#         st.markdown('''
+#         <a href="https://www.ftc.gov/system/files/attachments/cybersecurity-small-business/cybersecuirty_sb_factsheets_all.pdf">
+#             <img src="https://devtorium.com/wp-content/webp-express/webp-images/uploads/2023/01/services_security_illustration.png.webp" width="250" height="200" />
+#         </a>''',
+#         unsafe_allow_html=True
+#         )
+#         st.caption("Cyber Security Basics")
+#     with col2:
+#         st.markdown('''
+#         <a href="https://www.ibanet.org/MediaHandler?id=2F9FA5D6-6E9D-413C-AF80-681BAFD300B0">
+#             <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/88/76/9788767b-054e-b968-d21a-9180e80c77de/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg" width="200" height="200" />
+#         </a>''',
+#         unsafe_allow_html=True
+#         )
+#         st.caption("Cyber Security Guidlines")
 
 
 
-        url="https://docs.google.com/forms/d/e/1FAIpQLSeRVC8WVGSqDHN5B9_kX18RbRnS0gOFyMbKYZFqzBSGyP5rLA/viewform?usp=header"
-    st.write("Test Your Cyber Knowledge [Here](https://docs.google.com/forms/d/e/1FAIpQLSeRVC8WVGSqDHN5B9_kX18RbRnS0gOFyMbKYZFqzBSGyP5rLA/viewform?usp=header)")
+#         url="https://docs.google.com/forms/d/e/1FAIpQLSeRVC8WVGSqDHN5B9_kX18RbRnS0gOFyMbKYZFqzBSGyP5rLA/viewform?usp=header"
+#     st.write("Test Your Cyber Knowledge [Here](https://docs.google.com/forms/d/e/1FAIpQLSeRVC8WVGSqDHN5B9_kX18RbRnS0gOFyMbKYZFqzBSGyP5rLA/viewform?usp=header)")
     
-# st.markdown("Test your Knowledge" %url)
+# # st.markdown("Test your Knowledge" %url)
      
