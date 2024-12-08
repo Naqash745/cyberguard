@@ -280,6 +280,8 @@ if selection=="Cyber Awareness Chatbot":
 # https://youtu.be/Yr0xPVFcf-U?si=xNHedIZgSQbUc9f_
 
 if selection=="Education Portal":
+    st.subheader("Welcome to Education Portal")
+
     col1,col2=st.columns(2)
     with col1:
         st.markdown('''
@@ -344,7 +346,7 @@ if selection=="Education Portal":
         st.caption("Cyber Security Basics")
         st.markdown('''
         <a href="https://www.ibanet.org/MediaHandler?id=2F9FA5D6-6E9D-413C-AF80-681BAFD300B0">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3Wv6_UsQxfQjkcx0V2EIAYjJmZrHwJC2PwQ&s" width="500" height="200" />
+            <img src="ibant.png" width="500" height="200" />
         </a>''',
         unsafe_allow_html=True
         )
@@ -358,8 +360,7 @@ if selection=="Education Portal":
 
 
     
-    st.subheader("Welcome to Education Portal")
-    url="https://docs.google.com/forms/d/e/1FAIpQLSeRVC8WVGSqDHN5B9_kX18RbRnS0gOFyMbKYZFqzBSGyP5rLA/viewform?usp=header"
+        url="https://docs.google.com/forms/d/e/1FAIpQLSeRVC8WVGSqDHN5B9_kX18RbRnS0gOFyMbKYZFqzBSGyP5rLA/viewform?usp=header"
     st.write("Test Your Cyber Knowledge [Here](https://docs.google.com/forms/d/e/1FAIpQLSeRVC8WVGSqDHN5B9_kX18RbRnS0gOFyMbKYZFqzBSGyP5rLA/viewform?usp=header)")
     
 # st.markdown("Test your Knowledge" %url)
