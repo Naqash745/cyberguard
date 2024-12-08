@@ -110,20 +110,35 @@ if selection=="Dashboard":
     # df.values
     # st.write(df.iloc[-1,1:].values)
     responses=df.iloc[-1,1:].values
-    # correct_answers = ["A", "A"]
     correct=[]
     # wrong=[]
     for i,j in zip(responses,["A", "A"]):
-        # st.write(i,j)
         if i==j:
             correct.append(1)
         else:
-            st.write(i,j)
             correct.append(1)
     
     col1,col2,col3=st.columns(3)
     st.write(correct)
     with col1:
+        # Display pie chart
+        fig, ax = plt.subplots(figsize=(5, 5))
+        # sns.barplot(correct,ax=ax)
+        ax.pie(correct, labels=["Correct","Wrong"], autopct="%1.1f%%", startangle=90)
+        # ax.axis("equal")  # Equal aspect ratio ensures the pie is drawn as a circle.
+        st.write("Cyber Fundamental Score")
+        st.pyplot(fig)
+        st.write("Improve your Score [Here](https://docs.google.com/forms/d/e/1FAIpQLSeRVC8WVGSqDHN5B9_kX18RbRnS0gOFyMbKYZFqzBSGyP5rLA/viewform?usp=header)")
+    with col2:
+        # Display pie chart
+        fig, ax = plt.subplots(figsize=(5, 5))
+        # sns.barplot(correct,ax=ax)
+        ax.pie(correct, labels=["Correct","Wrong"], autopct="%1.1f%%", startangle=90)
+        # ax.axis("equal")  # Equal aspect ratio ensures the pie is drawn as a circle.
+        st.write("Risk Awareness Score")
+        st.pyplot(fig)
+        st.write("Improve your Score [Here](https://docs.google.com/forms/d/e/1FAIpQLSeRVC8WVGSqDHN5B9_kX18RbRnS0gOFyMbKYZFqzBSGyP5rLA/viewform?usp=header)")
+    with col3:
         # Display pie chart
         fig, ax = plt.subplots(figsize=(5, 5))
         # sns.barplot(correct,ax=ax)
