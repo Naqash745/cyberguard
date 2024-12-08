@@ -285,7 +285,7 @@ if selection=="Education Portal":
     st.write("")
 
     st.html(
-    "<h1>Fundamentals</h1>")
+    "<h4>Fundamentals</h4>")
 
     col1,col2=st.columns(2)
     with col1:
