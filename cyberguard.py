@@ -217,7 +217,7 @@ if selection=="Education Portal":
     col1,col2=st.columns(2)
     with col1:
         VIDEO_URL = "https://youtu.be/VJFaO2-zsCU?si=tiKXA6NRT-YCPNJr"
-        st.video(VIDEO_URL, subtitles="subtitles.vtt")
+        st.video(VIDEO_URL)
     st.subheader("Welcome to Education Portal")
     url="https://docs.google.com/forms/d/e/1FAIpQLSeRVC8WVGSqDHN5B9_kX18RbRnS0gOFyMbKYZFqzBSGyP5rLA/viewform?usp=header"
     st.write("Test Your Cyber Knowledge [Here](https://docs.google.com/forms/d/e/1FAIpQLSeRVC8WVGSqDHN5B9_kX18RbRnS0gOFyMbKYZFqzBSGyP5rLA/viewform?usp=header)")
