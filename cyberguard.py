@@ -347,9 +347,112 @@ if selection=="Education Portal":
             st.video("https://youtu.be/ZcQzqdnkKvk?si=g5O2DzZG-Z4HNhCu")
 
 
+    st.html(
+    "<h4>Essentials</h4>")
+
+#How to create a strong password?
+# https://youtu.be/TvrFpAFitQ0?si=wiz21Gn_w94sH5F9
+# Phishing
+# https://youtu.be/00hpRjfbM0A?si=OiQ52JrL0qe6eJ6b
+# Top 4 cyber fraud red flags
+# https://youtu.be/wHdLB_tHNVo?si=pLAehEzj4zzfZa4e
+#spoofing and indentity theft
+# https://youtu.be/ULiinB6nMPw?si=7__iJrCQsN7CKsdm
+# what is proxy server?
+# https://youtu.be/5cPIukqXe5w?si=djHvp2rs3GybcwWO
+# what is firewall?
+# https://youtu.be/kDEX1HXybrU?si=WnoyRM9_98_MZ3zM
+# VPN Explained
+# https://youtu.be/R-JUOpCgTZc?si=AVQ0AVVWYpdJtP9E
+# Data privacy and GDPR
+#https://youtu.be/hk-ZgRIYYXc?si=QPGmg7l0eU6FPvoL
+#Physical Security
+# https://youtu.be/tYapnGMrzp8?si=bPApRizw6lh4GJmy
+# social networks security risk
+# https://youtu.be/IVgobw7JFeE?si=UGi6mA0Sat4ihMVY
+
+    col1,col2=st.columns(2)
+    with col1:
+        st.caption("What is Cybercrime?")
+        st.video("https://youtu.be/X7kFAy1E8Jw?si=lKWx-y3Tz1_dsSQP")
+    with col2:
+        st.caption("What is Cybersecurity?")
+        st.video("https://youtu.be/Yr0xPVFcf-U?si=xNHedIZgSQbUc9f_")
+
+    col1,col2=st.columns(2)
+    with col1:
+        st.caption("Malware and its types")
+        st.video("https://youtu.be/n8mbzU0X2nQ?si=rqCjBFgrcmsj3WEw")
+    with col2:
+        st.caption("Tip for online data security")
+        st.video("https://youtu.be/aO858HyFbKI?si=K7mDm_E4WysamUuK")
+        
+    with st.expander("More"):
+        st.write("")
+
+        col1,col2=st.columns(2)
+        with col1:
+            st.caption("How to Protect yourself against cybercrime?")
+            st.video("https://youtu.be/EHqXMxY4_Nk?si=gyIz1gJhS2EfoHMr")
+        with col2:
+            st.caption("Why do cybercriminals want your computer?")
+            st.video("https://youtu.be/NZ21QKzZtcI?si=rgaYN3mGvn-j-jT1")
+        
+    st.html(
+    "<h4>Critical</h4>")
+
+    col1,col2=st.columns(2)
+    with col1:
+        st.caption("What is Cybercrime?")
+        st.video("https://youtu.be/X7kFAy1E8Jw?si=lKWx-y3Tz1_dsSQP")
+    with col2:
+        st.caption("What is Cybersecurity?")
+        st.video("https://youtu.be/Yr0xPVFcf-U?si=xNHedIZgSQbUc9f_")
+
+    col1,col2=st.columns(2)
+    with col1:
+        st.caption("Malware and its types")
+        st.video("https://youtu.be/n8mbzU0X2nQ?si=rqCjBFgrcmsj3WEw")
+    with col2:
+        st.caption("Tip for online data security")
+        st.video("https://youtu.be/aO858HyFbKI?si=K7mDm_E4WysamUuK")
+        
+    with st.expander("More"):
+        st.write("")
+
+        col1,col2=st.columns(2)
+        with col1:
+            st.caption("How to Protect yourself against cybercrime?")
+            st.video("https://youtu.be/EHqXMxY4_Nk?si=gyIz1gJhS2EfoHMr")
+        with col2:
+            st.caption("Why do cybercriminals want your computer?")
+            st.video("https://youtu.be/NZ21QKzZtcI?si=rgaYN3mGvn-j-jT1")
+        
+        
+
+
+# Different types of AI/ML-powered cybercrimes
+# https://youtu.be/1Z_dh9Xgtq0?si=DZq0Mg2yJM7SHgcJ
+
+# How to respond to a network breach?
+# https://youtu.be/0_2P_trzFsQ?si=_iO2hdmGjMNN9iu0
+
+
+# Top 5 security checklist for OT devices
+# https://youtu.be/-aV0ZCRq_0g?si=BFZS4wYZqJ4rlQRp
 
 
 
+# Secure remote working
+# https://youtu.be/F-U_7CGYiHQ?si=6GWZp6RGeFkxeYaZ
+
+# Zero day attack
+# https://youtu.be/1wul_zBphpY?si=SmMaNlRvto-g_9tI
+
+
+
+# Top 5 cloud security best practices checklist
+# https://youtu.be/ISkw0MwP2UA?si=AMiYkXKGdWTRc2zA
     
 #     col1,col2=st.columns(2)
 #     with col1:
