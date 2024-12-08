@@ -148,6 +148,15 @@ if selection=="Dashboard":
         st.pyplot(fig)
         st.write("Improve your Score [Here](https://docs.google.com/forms/d/e/1FAIpQLSeRVC8WVGSqDHN5B9_kX18RbRnS0gOFyMbKYZFqzBSGyP5rLA/viewform?usp=header)")
 
+    st.subheader("Cyber Security Guidelines")
+
+    col1,col2,col3=st.columns(3)
+    with col1:
+        st.write("The following list won’t indent no matter what I try:")
+        st.markdown("- Item 1")
+        st.markdown("- Item 2")
+        st.markdown("- Item 3")
+
 
 
 
