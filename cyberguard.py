@@ -17,6 +17,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
 # from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.document_loaders import PyPDFDirectoryLoader
 from langchain_community.document_loaders import DirectoryLoader
 from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
@@ -35,15 +36,15 @@ from langchain_core.output_parsers import StrOutputParser
 
 st.title("CYBER-GUARD")
 
-# loader=PyPDFLoader("guide-to-the-general-data-protection-regulation-gdpr-1-1.pdf")
-# data = loader.load()
+loader=PyPDFDirectoryLoader("./knowledgebase_for_chatbot/")
+data = loader.load()
 # #split the extracted data into text chunks using the text_splitter, which splits the text based on the specified number of characters and overlap
-# text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
-# text_chunks = text_splitter.split_documents(data)
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+text_chunks = text_splitter.split_documents(data)
 # #download the embeddings to use to represent text chunks in a vector space, using the pre-trained model "sentence-transformers/all-MiniLM-L6-v2"
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 # # # create embeddings for each text chunk using the FAISS class, which creates a vector index using FAISS and allows efficient searches between vectors
-# vector_store = FAISS.from_documents(text_chunks, embedding=embeddings)
+vector_store = FAISS.from_documents(text_chunks, embedding=embeddings)
 
 # vector_store.save_local("faiss_index")
 
