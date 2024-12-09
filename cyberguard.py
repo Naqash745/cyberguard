@@ -53,38 +53,38 @@ new_vector_store = FAISS.load_local(
 
 
 # Retrieve and generate using the relevant snippets of the blog.
-# retriever = new_vector_store.as_retriever()
+retriever = new_vector_store.as_retriever()
 
-# from langchain_groq import ChatGroq
-# GROQ_API_KEY=os.getenv("GROQ_API_KEY")
-# llm = ChatGroq(
-#     temperature=0,
-#     model="llama3-70b-8192",
-#     api_key=GROQ_API_KEY
-# )
+from langchain_groq import ChatGroq
+GROQ_API_KEY=os.getenv("GROQ_API_KEY")
+llm = ChatGroq(
+    temperature=0,
+    model="llama3-70b-8192",
+    api_key=GROQ_API_KEY
+)
 
-# prompt = hub.pull("rlm/rag-prompt")
-# from langchain_groq import ChatGroq
+prompt = hub.pull("rlm/rag-prompt")
+from langchain_groq import ChatGroq
 
-# llm = ChatGroq(
-#     temperature=0,
-#     model="llama3-70b-8192",
-#     api_key=GROQ_API_KEY
-# )
+llm = ChatGroq(
+    temperature=0,
+    model="llama3-70b-8192",
+    api_key=GROQ_API_KEY
+)
 
-# prompt = hub.pull("rlm/rag-prompt")
-
-
-# def format_docs(docs):
-#     return "\n\n".join(doc.page_content for doc in docs)
+prompt = hub.pull("rlm/rag-prompt")
 
 
-# rag_chain = (
-#     {"context": retriever | format_docs, "question": RunnablePassthrough()}
-#     | prompt
-#     | llm
-#     | StrOutputParser()
-# )
+def format_docs(docs):
+    return "\n\n".join(doc.page_content for doc in docs)
+
+
+rag_chain = (
+    {"context": retriever | format_docs, "question": RunnablePassthrough()}
+    | prompt
+    | llm
+    | StrOutputParser()
+)
 
 
 #######################################################################
@@ -259,9 +259,9 @@ if selection=="Dashboard":
 
 if selection=="Cyber Awareness Chatbot":
     st.subheader("Cyber Awareness Chatbot")
-#     query=st.text_input("Write Query Here")
-#     if st.button("Submit"):
-#         st.write(rag_chain.invoke(query))
+    query=st.text_input("Write Query Here")
+    if st.button("Submit"):
+        st.write(rag_chain.invoke(query))
 # if selection=="Malicious File Scanner":
 #     st.subheader("Malicious File Scanner")
 #     file=st.file_uploader("Select a File")
