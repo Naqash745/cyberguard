@@ -34,17 +34,17 @@ from langchain_core.output_parsers import StrOutputParser
 
 st.title("CYBER-GUARD")
 
-loader=PyPDFLoader("guide-to-the-general-data-protection-regulation-gdpr-1-1.pdf")
-data = loader.load()
-#split the extracted data into text chunks using the text_splitter, which splits the text based on the specified number of characters and overlap
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
-text_chunks = text_splitter.split_documents(data)
-#download the embeddings to use to represent text chunks in a vector space, using the pre-trained model "sentence-transformers/all-MiniLM-L6-v2"
-embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
-# # create embeddings for each text chunk using the FAISS class, which creates a vector index using FAISS and allows efficient searches between vectors
-vector_store = FAISS.from_documents(text_chunks, embedding=embeddings)
+# loader=PyPDFLoader("guide-to-the-general-data-protection-regulation-gdpr-1-1.pdf")
+# data = loader.load()
+# #split the extracted data into text chunks using the text_splitter, which splits the text based on the specified number of characters and overlap
+# text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+# text_chunks = text_splitter.split_documents(data)
+# #download the embeddings to use to represent text chunks in a vector space, using the pre-trained model "sentence-transformers/all-MiniLM-L6-v2"
+# embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+# # # create embeddings for each text chunk using the FAISS class, which creates a vector index using FAISS and allows efficient searches between vectors
+# vector_store = FAISS.from_documents(text_chunks, embedding=embeddings)
 
-vector_store.save_local("faiss_index")
+# vector_store.save_local("faiss_index")
 
 new_vector_store = FAISS.load_local(
     "faiss_index", embeddings, allow_dangerous_deserialization=True
