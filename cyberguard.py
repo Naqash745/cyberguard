@@ -42,10 +42,18 @@ text_chunks = text_splitter.split_documents(data)
 #download the embeddings to use to represent text chunks in a vector space, using the pre-trained model "sentence-transformers/all-MiniLM-L6-v2"
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 # # create embeddings for each text chunk using the FAISS class, which creates a vector index using FAISS and allows efficient searches between vectors
-PERSIST_DIRECTORY='./vector_store/'
-vector_store = FAISS.from_documents(text_chunks, embedding=embeddings,persist_directory=PERSIST_DIRECTORY)
+vector_store = FAISS.from_documents(text_chunks, embedding=embeddings)
+
+vector_store.save_local("faiss_index")
+
+new_vector_store = FAISS.load_local(
+    "faiss_index", embeddings, allow_dangerous_deserialization=True
+)
+
+
+
 # Retrieve and generate using the relevant snippets of the blog.
-# retriever = vector_store.as_retriever()
+# retriever = new_vector_store.as_retriever()
 
 # from langchain_groq import ChatGroq
 # GROQ_API_KEY=os.getenv("GROQ_API_KEY")
