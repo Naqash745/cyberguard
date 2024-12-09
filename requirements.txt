@@ -1,3 +1,4 @@
+unstructured
 httpx<0.25.0
 langchain-huggingface
 sentence_transformers
