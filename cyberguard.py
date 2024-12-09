@@ -17,6 +17,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
 # from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.document_loaders import PyPDFDirectoryLoader
 from langchain_community.document_loaders import DirectoryLoader
 from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
@@ -35,7 +36,7 @@ from langchain_core.output_parsers import StrOutputParser
 
 st.title("CYBER-GUARD")
 
-loader=DirectoryLoader("./knowledgebase_for_chatbot/")
+loader=PyPDFDirectoryLoader("./knowledgebase_for_chatbot/")
 data = loader.load()
 # #split the extracted data into text chunks using the text_splitter, which splits the text based on the specified number of characters and overlap
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
