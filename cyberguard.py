@@ -46,7 +46,7 @@ embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-
 # # # create embeddings for each text chunk using the FAISS class, which creates a vector index using FAISS and allows efficient searches between vectors
 vector_store = FAISS.from_documents(text_chunks, embedding=embeddings)
 
-# vector_store.save_local("faiss_index")
+vector_store.save_local("faiss_index")
 
 new_vector_store = FAISS.load_local(
     "faiss_index", embeddings, allow_dangerous_deserialization=True
