@@ -395,36 +395,56 @@ if selection=="Education Portal":
         st.caption("What is Spoofing and Indentity theft?")
         st.video("https://youtu.be/ULiinB6nMPw?si=7__iJrCQsN7CKsdm")
     with col2:
-        st.caption("Tip for online data security")
-        st.video("https://youtu.be/aO858HyFbKI?si=K7mDm_E4WysamUuK")
+        st.caption("what is proxy server?")
+        st.video("https://youtu.be/5cPIukqXe5w?si=djHvp2rs3GybcwWO")
         
     with st.expander("More"):
         st.write("")
 
         col1,col2=st.columns(2)
         with col1:
-            st.caption("How to Protect yourself against cybercrime?")
-            st.video("https://youtu.be/EHqXMxY4_Nk?si=gyIz1gJhS2EfoHMr")
+            st.caption("VPN Explained")
+            st.video("https://youtu.be/R-JUOpCgTZc?si=AVQ0AVVWYpdJtP9E")
         with col2:
-            st.caption("Why do cybercriminals want your computer?")
-            st.video("https://youtu.be/NZ21QKzZtcI?si=rgaYN3mGvn-j-jT1")
+            st.caption("How Social Networks are  Security Risk?")
+            st.video("https://youtu.be/IVgobw7JFeE?si=UGi6mA0Sat4ihMVY")
+
+        col1,col2=st.columns(2)
+        with col1:
+            st.caption("What is firewall?")
+            st.video("https://youtu.be/kDEX1HXybrU?si=WnoyRM9_98_MZ3zM")
+        with col2:
+            st.caption("Top 4 cyber fraud red flags")
+            st.video("https://youtu.be/wHdLB_tHNVo?si=pLAehEzj4zzfZa4e")
+
+        col1,col2=st.columns(2)
+        with col1:
+            
+            st.caption("What is Zero day attack?")
+            st.video("https://youtu.be/1wul_zBphpY?si=SmMaNlRvto-g_9tI")
+        with col2:
+            st.caption("Physical Security")
+            st.video("https://youtu.be/tYapnGMrzp8?si=bPApRizw6lh4GJmy")
+
+
+    
         
     st.html("<h4>Critical</h4>")
 
     col1,col2=st.columns(2)
     with col1:
-        st.caption("What is Cybercrime?")
+        st.caption("Different types of AI/ML-powered cybercrimes")
         st.video("https://youtu.be/X7kFAy1E8Jw?si=lKWx-y3Tz1_dsSQP")
     with col2:
-        st.caption("What is Cybersecurity?")
+        st.caption("How to respond to a network breach?")
         st.video("https://youtu.be/Yr0xPVFcf-U?si=xNHedIZgSQbUc9f_")
 
     col1,col2=st.columns(2)
     with col1:
-        st.caption("Malware and its types")
+        st.caption("Top 5 security checklist for OT devices")
         st.video("https://youtu.be/n8mbzU0X2nQ?si=rqCjBFgrcmsj3WEw")
     with col2:
-        st.caption("Tip for online data security")
+        st.caption("How to do Secure remote working?")
         st.video("https://youtu.be/aO858HyFbKI?si=K7mDm_E4WysamUuK")
         
     with st.expander("More"):
@@ -432,13 +452,14 @@ if selection=="Education Portal":
 
         col1,col2=st.columns(2)
         with col1:
-            st.caption("How to Protect yourself against cybercrime?")
-            st.video("https://youtu.be/EHqXMxY4_Nk?si=gyIz1gJhS2EfoHMr")
+            st.caption("Data privacy and GDPR")
+            st.video("https://youtu.be/hk-ZgRIYYXc?si=QPGmg7l0eU6FPvoL")
         with col2:
             st.caption("Why do cybercriminals want your computer?")
             st.video("https://youtu.be/NZ21QKzZtcI?si=rgaYN3mGvn-j-jT1")
         
         
+#https://youtu.be/hk-ZgRIYYXc?si=QPGmg7l0eU6FPvoL
 
 
 # Different types of AI/ML-powered cybercrimes
