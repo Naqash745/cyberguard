@@ -384,16 +384,16 @@ if selection=="Education Portal":
 
     col1,col2=st.columns(2)
     with col1:
-        st.caption("What is Cybercrime?")
-        st.video("https://youtu.be/X7kFAy1E8Jw?si=lKWx-y3Tz1_dsSQP")
+        st.caption("How to create a strong password?")
+        st.video("https://youtu.be/TvrFpAFitQ0?si=wiz21Gn_w94sH5F9")
     with col2:
-        st.caption("What is Cybersecurity?")
-        st.video("https://youtu.be/Yr0xPVFcf-U?si=xNHedIZgSQbUc9f_")
+        st.caption("What is Phishing?")
+        st.video("https://youtu.be/00hpRjfbM0A?si=OiQ52JrL0qe6eJ6b")
 
     col1,col2=st.columns(2)
     with col1:
-        st.caption("Malware and its types")
-        st.video("https://youtu.be/n8mbzU0X2nQ?si=rqCjBFgrcmsj3WEw")
+        st.caption("What is Spoofing and Indentity theft?")
+        st.video("https://youtu.be/ULiinB6nMPw?si=7__iJrCQsN7CKsdm")
     with col2:
         st.caption("Tip for online data security")
         st.video("https://youtu.be/aO858HyFbKI?si=K7mDm_E4WysamUuK")
@@ -409,8 +409,7 @@ if selection=="Education Portal":
             st.caption("Why do cybercriminals want your computer?")
             st.video("https://youtu.be/NZ21QKzZtcI?si=rgaYN3mGvn-j-jT1")
         
-    st.html(
-    "<h4>Critical</h4>")
+    st.html("<h4>Critical</h4>")
 
     col1,col2=st.columns(2)
     with col1:
