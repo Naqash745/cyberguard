@@ -18,7 +18,6 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.runnables import RunnableParallel, RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 from st_social_media_links import SocialMediaIcons
-from datetime import datetime
 from langchain_groq import ChatGroq
 from wordcloud import WordCloud
 from dotenv import load_dotenv
